@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(images/moroccan-flower.png);
+}
+#red {
+    color: red;
+    font-weight: 800;
+}
+#green {
+    color: yellowgreen;
+    font-weight: 800;
+}
+.links {
+    float: right;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: white;
+    padding: 25px 25px;
+}
+.links {
+    display: flex;
+    gap: 50px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    gap: 50px;
+    padding: 0px 25px;
+    margin-top: 50px;
+}
+.headerText{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.headerText h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+}
+.headerText a {
+    font-weight: 600;
+}
+.meals {
+    display: flex;
+    gap: 10px;
+}
+.meal {
+    position: relative;
+    overflow: hidden;
+    height: 325px;
+    width: 200px;
+}
+.meal img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fresh, .meal-tag {
+    background-color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    bottom: 37px;
+}
+.meal-tag {
+    background-color: yellowgreen;
+    bottom: 0px;
+    width:55%;
+    text-align: right;
+}
