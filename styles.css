@@ -14,9 +14,6 @@ body {
     color: yellowgreen;
     font-weight: 800;
 }
-.links {
-    float: right;
-}
 .nav {
     display: flex;
     justify-content: space-between;
