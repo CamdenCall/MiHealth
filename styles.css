@@ -38,11 +38,14 @@ header {
     gap: 50px;
     padding: 0px 25px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 .headerText{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    max-width: 500px;
 }
 .headerText h1{
     font-weight: 900;
